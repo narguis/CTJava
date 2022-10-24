@@ -1,0 +1,18 @@
+/* Checks if the given number is odd or even */
+
+public class ct2q1
+{
+    public static void main(String[] args) {
+
+        int i = 0;
+        for (String n : args) {
+            i = Integer.parseInt(n);
+        }
+
+        if (i % 2 == 0) {
+            System.out.printf("O número %d é par!", i);
+        } else {
+            System.out.printf("O número %d é ímpar!", i);
+        }
+    }
+}
