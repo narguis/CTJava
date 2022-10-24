@@ -1,3 +1,6 @@
+/* Given an N numbers of temperatures that will be converted, in each case, asks for the unit it will convert from and then the unit it will convert to */
+/* In each case, returns the original temperature, the converted temperature, an average between the inputs and an average between the outputs */
+
 import java.util.Scanner;
 
 public class ctprojeto {
