@@ -1,0 +1,21 @@
+/* Asks for two temperatures in Celsius and converts them to Fahrenheit */
+
+import java.util.Scanner;
+
+public class ct1q5 {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Digite a temperatura em celsius: ");
+        float c = scanner.nextFloat();
+        float f = Fahrenheit(c);
+        System.out.printf("%.2fC é igual a %.2fF\n", c, f);
+
+        System.out.println("Digite uma nova temperatura em celsius: ");
+        c = scanner.nextFloat();
+        f = Fahrenheit(c);
+        System.out.printf("%.2fC é ifual a %.2fF\n", c, f);
+    }
+    public static float Fahrenheit(float c){
+        return (c * 9/5) + 32;
+    }
+}
